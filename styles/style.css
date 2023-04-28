@@ -1,0 +1,66 @@
+@import url(header.css);
+@import url(burger.css);
+@import url(projects.css);
+@import url(competencies.css);
+@import url(layout.css);
+@import url(contacts.css);
+@import url(footer.css);
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'IBM Plex Mono';
+    background-color: #000000;
+}
+.body_fixed {
+    overflow: hidden;
+}
+.container {
+    margin: 0 auto;
+    width: 1150px;
+}
+section {
+    padding-top: 150px;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, p, div, button, a {
+    letter-spacing: -0.03em;
+}
+h2 {
+    font-size: 55px;
+    line-height: 72px;
+}
+h3 {
+    font-size: 35px;
+    line-height: 46px;
+}
+@media (max-width: 1199px) {
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    h2 {
+        font-size: 45px;
+        line-height: 58px;
+    }
+    h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}    
+@media (max-width: 767px) {
+    .container {
+        padding-right: 13px;
+        padding-left: 13px;
+    }
+    section {
+        padding-top: 100px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 39px;
+    }
+}

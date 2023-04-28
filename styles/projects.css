@@ -1,0 +1,122 @@
+.projects_title {
+    color: #FFFFFF;
+}
+.projects {
+    margin-top: 40px;
+}
+.project1, .project2, .project3 {
+    position: relative;
+    height: 550px;
+    border-radius: 30px;
+}
+.project1 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url('../resources/metrika.png');
+}
+.project2 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url('../resources/nothing.png');
+}
+.project3 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url('../resources/toptrip.png');
+}
+.project_link_wrapper {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 201px;
+    height: 38px;
+    background: #00FFFF;
+    border-radius: 81px;
+    text-align: center;
+}
+.project_link {
+    font-size: 16px;
+    line-height: 38px;
+    color: #000000;
+}
+.project_title {
+    position: absolute;
+    left: 50px;
+    bottom: 94px;
+    color: #FFFFFF;
+}
+.project_descr {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    margin-top: 5px;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+.projects_link {
+    margin-top: 80px;
+    display: block;
+    width: 582px;
+    height: 153px;
+    background: aqua;
+    border-radius: 10px;
+    font-size: 30px;
+    line-height: 153px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+}
+.projects_link:hover {
+    border: 1px solid aqua;
+    background: #000000;
+    color: aqua;
+}
+@media (max-width: 1199px) {
+    .projects {
+        margin-top: 53px;
+    }
+    .project_link_wrapper {
+        width: 165px;
+    }
+    .project_title {
+        left: 40px;
+    }
+    .project_descr {
+        left: 40px;
+        bottom: 40px;
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .projects_link {
+        width: 100%;
+    }
+    .project1, .project2, .project3 {
+        height: 445px;
+        width: 100%;
+    }
+    .projects_link {
+        margin-top: 64px;
+    }
+}    
+@media (max-width: 767px) {
+    .projects {
+        margin-top: 34px;
+    }
+    .project_link_wrapper {
+        width: 147px;
+        height: 27px;
+        top: 30px;
+        left: 33px;
+    }
+    .project_link {
+        font-size: 13px;
+        line-height: 27px;
+    }
+    .project_title {
+        left: 35px;
+    }
+    .project_descr {
+        left: 35px;
+        bottom: 50px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .projects_link {
+        margin-top: 60px;
+    }
+}

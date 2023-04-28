@@ -1,0 +1,136 @@
+.social_media_bg {
+    width: 100%;
+    position: relative;
+    height: 717px;
+    background: #191C19;
+    border-radius: 30px;
+}
+.communication_wrapper {
+    position: absolute;
+    z-index: 2;
+    left: 122px;
+    top: 100px;
+    width: 553px;
+    height: 180px;
+}
+.communication {
+    font-size: 50px;
+    line-height: 50px;
+    color: aqua;
+}
+.social_media_img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 30px;
+}
+.contact__btn {
+    position: absolute;
+    width: 450px;
+    height: 70px;
+    left: 125px;
+    bottom: 100px;
+    background: aqua;
+    border-radius: 10px;
+    z-index: 1;
+}
+.input_name, .input_email {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    padding-left: 40px;
+    left: 125px;
+    width: 567px;
+    height: 60px;
+    background: #3B3D3B;
+    border-radius: 1000px;
+    border: none;
+}
+.input_name {
+    bottom: 317px;
+}
+.input_email {
+    bottom: 231px;
+}   
+.input:focus {
+    outline: none;
+}
+.input::placeholder {
+    color: #000000;
+    opacity: 0.5;
+}
+@media (max-width: 1199px) {
+    .social_media_bg {
+        height: 484px;
+    }
+    .social_media_img {
+        height: 484px;
+    }
+    .communication_wrapper {
+        left: 50px;
+        top: 50px;
+    }
+    .communication {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .contact__btn {
+        left: 50px;
+        bottom: 86px;
+        width: 304px;
+        height: 47px;
+    }
+    .input_name, .input_email {
+        padding-left: 22px;
+        left: 50px;
+        width: 383px;
+        height: 41px;
+    }
+    .input_name {
+        bottom: 231px;
+    }
+    .input_email {
+        bottom: 173px;
+    }  
+}    
+@media (max-width: 767px) {
+    .social_media_bg {
+        height: 484px;
+    }
+    .communication_wrapper {
+        width: 310px;
+        left: 15px;
+        top: 50px;
+    }
+
+    .communication {
+        font-size: 35px;
+        line-height: 37px;
+    } 
+    .contact__btn {
+        left: 15px;
+        bottom: 52px;
+        width: 304px;
+        height: 47px;
+    }
+    .input_name, .input_email {
+        padding-left: 22px;
+        left: 15px;
+        width: 383px;
+        height: 41px;
+    }
+    .input_name {
+        bottom: 188px;
+    }
+    .input_email {
+        bottom: 135px;
+    }  
+    .input_name, .input_email {
+        padding-left: 18px;
+        width: 95%;
+        height: 38px;
+    }
+    .social_media_img {
+        display: none;
+    }
+}
