@@ -51,6 +51,7 @@
     }
     .website_layout_wrap {
         flex-direction: column;
+        height: 100%;
         row-gap: 15px;
         padding: 30px 23px 67px 21px;
     }
